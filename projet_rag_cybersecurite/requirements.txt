@@ -1,0 +1,9 @@
+# Python 3.9+  —  installation : pip install -r requirements.txt
+pandas>=2.0
+numpy>=1.24
+requests>=2.31
+chromadb>=0.5            # base vectorielle (testé avec 1.5.9)
+sentence-transformers>=2.7   # embeddings multilingual-e5-small (installe aussi PyTorch)
+gradio>=4.0              # interface web (testé avec 6.30)
+python-dotenv>=1.0       # optionnel : lit le fichier .env
+tabulate>=0.9            # optionnel : tableau Markdown dans compare_chunks.py

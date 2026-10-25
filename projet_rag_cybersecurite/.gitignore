@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+perso2_indexation/chroma_db/
+.ipynb_checkpoints/
